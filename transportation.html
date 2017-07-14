@@ -134,7 +134,12 @@
         <a href="https://isleroyaleseaplanes.com/"><img src="https://isleroyaleseaplanes.com/wp-content/uploads/2015/01/MG_9774.jpg" width="400"></a>
         <h3>The Isle Royale Seaplane</h3>
         
-        // When the user scrolls down 20px from the top of the document, show the button
+
+        
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    </body>
+    <script>
+      // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -150,7 +155,5 @@ function topFunction() {
     document.body.scrollTop = 0; // For Chrome, Safari and Opera 
     document.documentElement.scrollTop = 0; // For IE and Firefox
 }
-        
-        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-    </body>
+    </script>
 </html>
