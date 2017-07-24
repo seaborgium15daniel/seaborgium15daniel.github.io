@@ -19,7 +19,7 @@
 #primary_nav_wrap ul a
 {
 	display:block;
-	color:#333;
+	color:#fff;
 	text-decoration:none;
 	font-weight:700;
 	font-size:12px;
@@ -36,11 +36,11 @@
 }
 #primary_nav_wrap ul li.current-menu-item
 {
-	background:#fff
+	background:#ddd
 }
 #primary_nav_wrap ul li:hover
 {
-	background:#f6f6f6
+	background:#060606
 }
 #primary_nav_wrap ul ul
 {
